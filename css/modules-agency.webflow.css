@@ -159,6 +159,15 @@
   letter-spacing: 0.2px;
 }
 
+.alt-cta-link {
+  display: inline;
+  margin-top: 8px;
+  margin-left: 16px;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 479px) {
   .header {
     padding-right: 10%;
@@ -178,6 +187,11 @@
 
   .testimonial {
     width: 80%;
+  }
+
+  .alt-cta-link {
+    display: block;
+    margin-left: 0px;
   }
 }
 
